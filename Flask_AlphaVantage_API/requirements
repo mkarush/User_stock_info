@@ -1,0 +1,7 @@
+pip intstall flask
+pip intstall flask_sqlalchemy
+pip install flask_script
+pip install flask_migrate
+pip install jinja2
+
+
