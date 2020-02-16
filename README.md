@@ -13,3 +13,6 @@ Price : This will give latest prices of all the stock
 Delete-Stock : This will delete stock from the list
 
 <img src= "Flask_AlphaVantage_API/images/Screen%20Shot%202020-02-16%20at%209.48.04%20AM.png" width="700px">
+
+Limitations:
+1. Alphavantage only allow to make 5 api calls per minute 
