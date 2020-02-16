@@ -1,0 +1,21 @@
+{% include 'navbar.html' %}
+<br>
+<!DOCTYPE html>
+<html>
+<body>
+    {%- for message in get_flashed_messages() %}
+         <h1>{{ message }}</h1>
+    {%- endfor %}
+</body>
+<body>
+   <table border = 2 , style=margin-left:10px>
+       <tbody>
+        {% for value in output %}
+            <tr>
+                <td>{{value}}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+   </table>
+</body>
+</html>
