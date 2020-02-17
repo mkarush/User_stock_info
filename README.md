@@ -16,3 +16,13 @@ Delete-Stock : This will delete stock from the list
 
 Limitations:
 1. Alphavantage only allow to make 5 api calls per minute 
+
+Solutions:
+In order to avoid Alphavantage-API issue i am using yfinance
+
+Advantages: No need to create API Key
+
+<img src= "yfinance_api/images/Screen%20Shot%202020-02-16%20at%205.17.51%20PM.png" width="700px">
+
+Limitations: 
+It little slow and it speed to get value depends upon user internet speed. 
