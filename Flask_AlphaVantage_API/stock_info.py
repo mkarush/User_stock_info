@@ -20,6 +20,11 @@ app.register_blueprint(del_mod, url_prefix='/destory')
 app.register_blueprint(update_mod, url_prefix='/update')
 app.register_blueprint(name_mod, url_prefix='/name')
 
+
+@app.before_first_request
+def create_tables():
+    db.create_all()
+
 @app.route('/')
 def hello():
     return render_template('home.html')
@@ -38,5 +43,4 @@ def search():
 
 if __name__ == '__main__':
     app.run()
-    db.create_all()
 
