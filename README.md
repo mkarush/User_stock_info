@@ -11,6 +11,7 @@ Symbol-Search : This will give top 10 matching stock name and symbol
 Price : This will give latest prices of all the stock
 
 Delete-Stock : This will delete stock from the list
+
 USAGE# python stock_info.py
 
 <img src= "Flask_AlphaVantage_API/images/Screen%20Shot%202020-02-16%20at%209.48.04%20AM.png" width="700px">
