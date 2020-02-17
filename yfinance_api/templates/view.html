@@ -1,0 +1,23 @@
+{% include 'navbar.html' %}
+<br>
+<!DOCTYPE html>
+<html lang = "en">
+<div style=margin-left:10px>
+   <body>
+        {%- for message in get_flashed_messages() %}
+         <h1>{{ message }}</h1>
+        {%- endfor %}
+   <table border = 1 >
+         <tbody>
+        {% for value in price %}
+            <tr>
+                <td>{{value.name}}</td>
+                <td>{{value.value}}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+   </table>
+   </body>
+</div>
+</html>
+
