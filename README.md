@@ -11,6 +11,7 @@ Symbol-Search : This will give top 10 matching stock name and symbol
 Price : This will give latest prices of all the stock
 
 Delete-Stock : This will delete stock from the list
+USAGE# python stock_info.py
 
 <img src= "Flask_AlphaVantage_API/images/Screen%20Shot%202020-02-16%20at%209.48.04%20AM.png" width="700px">
 
@@ -21,6 +22,8 @@ Solutions:
 In order to avoid Alphavantage-API issue i am using yfinance
 
 Advantages: No need to create API Key
+
+USAGE# python stock_info.py
 
 <img src= "yfinance_api/images/Screen%20Shot%202020-02-16%20at%205.17.51%20PM.png" width="700px">
 
